@@ -58,6 +58,7 @@ body {
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 65px;
 }
 
 .section-wrapper .section-left {
@@ -83,4 +84,50 @@ body {
     color: #ffffff;
     border-radius: 20px;
     font-size: 16px;
+}
+
+.brand-logo {
+    display: flex;
+    max-width: 1110px;
+    height: 110;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #E2E8EE;
+    border-left: none;
+    border-right: none;
+    padding: 30px;
+    margin-bottom: 100px;
+    ;
+
+}
+
+/* Main Section Styles */
+
+
+.container-wrapper {
+    display: grid;
+    max-width: 1047px;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-row-gap: 30px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+
+.container .single-container img {
+    width: 100%;
+}
+
+.single-container {
+    margin: 10px;
+    border-radius: 10px;
 }
