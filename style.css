@@ -115,6 +115,10 @@ body {
 
 }
 
+.container-wrapper .main-section-heading h3 {
+    font-size: 28px;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -125,9 +129,113 @@ body {
 
 .container .single-container img {
     width: 100%;
+
 }
 
 .single-container {
     margin: 10px;
     border-radius: 10px;
+}
+
+.container-wrapper .single-container h2 {
+    color: #272626;
+    margin: 10px 0;
+}
+
+.container-wrapper .single-container h3 {
+    color: #909090;
+    margin: 10px 0;
+}
+
+.container-wrapper .single-container .review-star {
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.container-wrapper .single-container p {
+    color: #909090;
+    margin-top: 10px;
+}
+
+.see-more {
+    max-width: 1047px;
+    padding: 10px 20px;
+    color: red;
+    text-decoration: none;
+}
+
+
+
+/* Section End Styles */
+
+.section-end {
+    display: grid;
+    max-width: 1047px;
+    margin: 0 auto;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    grid-column-gap: 20px;
+    margin-bottom: 25px;
+}
+
+.section-end .about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section-end .about-us h3 {
+    font-size: 26px;
+    background-color: orange;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.section-end .about-us ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section-end .about-us ul li a {
+    text-decoration: none;
+    color: #62636b;
+}
+
+.section-end .customer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section-end .customer-info h3 {
+    font-size: 26px;
+    background-color: orange;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Footer Style */
+
+.footer {
+    display: grid;
+    width: 100%;
+    height: 240px;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-row-gap: 20px;
+    background-color: orange;
+    align-items: center;
+    align-content: center;
+}
+
+.footer h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer p {
+    font-size: 14px;
+    font-weight: bold;
 }
