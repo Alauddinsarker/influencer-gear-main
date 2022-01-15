@@ -48,3 +48,39 @@ body {
 .header .menu-item .menu-icon .custom-css {
     margin-right: 20px;
 }
+
+/* Section Top Styling */
+
+
+.section-wrapper {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-wrapper .section-left {
+    margin-top: 20px;
+    width: 500px;
+}
+
+.section-wrapper .section-left h1 {
+    font-size: 52px;
+}
+
+.section-wrapper .section-left p {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.section-wrapper .section-left .continue-reading {
+    text-decoration: none;
+    width: 196px;
+    height: 44px;
+    padding: 8px 10px;
+    background-color: #e02c6d;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 16px;
+}
