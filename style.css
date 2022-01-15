@@ -80,7 +80,7 @@ body {
     width: 196px;
     height: 44px;
     padding: 8px 10px;
-    background-color: #e02c6d;
+    background-color: #ffc107;
     color: #ffffff;
     border-radius: 20px;
     font-size: 16px;
@@ -98,7 +98,6 @@ body {
     border-right: none;
     padding: 30px;
     margin-bottom: 100px;
-    ;
 
 }
 
@@ -125,6 +124,9 @@ body {
     justify-items: center;
     grid-row-gap: 30px;
     grid-column-gap: 30px;
+    background-color: rgb(238, 237, 237);
+    box-shadow: 0px 1px 20px 10px rgb(209, 203, 203);
+    border-radius: 10px;
 }
 
 .container .single-container img {
@@ -135,6 +137,7 @@ body {
 .single-container {
     margin: 10px;
     border-radius: 10px;
+    background-color: white;
 }
 
 .container-wrapper .single-container h2 {
@@ -159,11 +162,15 @@ body {
 
 .see-more {
     max-width: 1047px;
+    margin: 20px auto;
+    text-align: end;
     padding: 10px 20px;
-    color: red;
-    text-decoration: none;
 }
 
+.see-more a {
+    text-decoration: none;
+    color: orange;
+}
 
 
 /* Section End Styles */
@@ -213,6 +220,18 @@ body {
     background-color: orange;
     padding: 5px;
     border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.section-end .customer-info>input {
+    margin-bottom: 3px;
+}
+
+.section-end .customer-info .submit {
+    background-color: orange;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
 }
 
 /* Footer Style */
@@ -238,4 +257,11 @@ body {
 .footer p {
     font-size: 14px;
     font-weight: bold;
+}
+
+.footer .social-icon i {
+    padding: 10px;
+    border: 10px solid rgb(199, 145, 46);
+    border-radius: 50%;
+
 }
